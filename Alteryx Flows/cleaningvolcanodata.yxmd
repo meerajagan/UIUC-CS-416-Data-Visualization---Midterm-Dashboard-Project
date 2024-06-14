@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\UIUC\GRAD\CS 416 - Data Visualization\data dashboard midterm project\VOLCANO\volcano.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>volcano.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="volcano_number" size="254" source="File: C:\UIUC\GRAD\CS 416 - Data Visualization\data dashboard midterm project\VOLCANO\volcano.csv" type="V_String" />
+            <Field name="volcano_name" size="254" source="File: C:\UIUC\GRAD\CS 416 - Data Visualization\data dashboard midterm project\VOLCANO\volcano.csv" type="V_String" />
+            <Field name="primary_volcano_type" size="254" source="File: C:\UIUC\GRAD\CS 416 - Data Visualization\data dashboard midterm project\VOLCANO\volcano.csv" type="V_String" />
+            <Field name="last_eruption_year" size="254" source="File: C:\UIUC\GRAD\CS 416 - Data Visualization\data dashboard midterm project\VOLCANO\volcano.csv" type="V_String" />
+            <Field name="country" size="254" source="File: C:\UIUC\GRAD\CS 416 - Data Visualization\data dashboard midterm project\VOLCANO\volcano.csv" type="V_String" />
+            <Field name="region" size="254" source="File: C:\UIUC\GRAD\CS 416 - Data Visualization\data dashboard midterm project\VOLCANO\volcano.csv" type="V_String" />
+            <Field name="subregion" size="254" source="File: C:\UIUC\GRAD\CS 416 - Data Visualization\data dashboard midterm project\VOLCANO\volcano.csv" type="V_String" />
+            <Field name="latitude" size="254" source="File: C:\UIUC\GRAD\CS 416 - Data Visualization\data dashboard midterm project\VOLCANO\volcano.csv" type="V_String" />
+            <Field name="longitude" size="254" source="File: C:\UIUC\GRAD\CS 416 - Data Visualization\data dashboard midterm project\VOLCANO\volcano.csv" type="V_String" />
+            <Field name="elevation" size="254" source="File: C:\UIUC\GRAD\CS 416 - Data Visualization\data dashboard midterm project\VOLCANO\volcano.csv" type="V_String" />
+            <Field name="tectonic_settings" size="254" source="File: C:\UIUC\GRAD\CS 416 - Data Visualization\data dashboard midterm project\VOLCANO\volcano.csv" type="V_String" />
+            <Field name="evidence_category" size="254" source="File: C:\UIUC\GRAD\CS 416 - Data Visualization\data dashboard midterm project\VOLCANO\volcano.csv" type="V_String" />
+            <Field name="major_rock_1" size="254" source="File: C:\UIUC\GRAD\CS 416 - Data Visualization\data dashboard midterm project\VOLCANO\volcano.csv" type="V_String" />
+            <Field name="major_rock_2" size="254" source="File: C:\UIUC\GRAD\CS 416 - Data Visualization\data dashboard midterm project\VOLCANO\volcano.csv" type="V_String" />
+            <Field name="major_rock_3" size="254" source="File: C:\UIUC\GRAD\CS 416 - Data Visualization\data dashboard midterm project\VOLCANO\volcano.csv" type="V_String" />
+            <Field name="major_rock_4" size="254" source="File: C:\UIUC\GRAD\CS 416 - Data Visualization\data dashboard midterm project\VOLCANO\volcano.csv" type="V_String" />
+            <Field name="major_rock_5" size="254" source="File: C:\UIUC\GRAD\CS 416 - Data Visualization\data dashboard midterm project\VOLCANO\volcano.csv" type="V_String" />
+            <Field name="minor_rock_1" size="254" source="File: C:\UIUC\GRAD\CS 416 - Data Visualization\data dashboard midterm project\VOLCANO\volcano.csv" type="V_String" />
+            <Field name="minor_rock_2" size="254" source="File: C:\UIUC\GRAD\CS 416 - Data Visualization\data dashboard midterm project\VOLCANO\volcano.csv" type="V_String" />
+            <Field name="minor_rock_3" size="254" source="File: C:\UIUC\GRAD\CS 416 - Data Visualization\data dashboard midterm project\VOLCANO\volcano.csv" type="V_String" />
+            <Field name="minor_rock_4" size="254" source="File: C:\UIUC\GRAD\CS 416 - Data Visualization\data dashboard midterm project\VOLCANO\volcano.csv" type="V_String" />
+            <Field name="minor_rock_5" size="254" source="File: C:\UIUC\GRAD\CS 416 - Data Visualization\data dashboard midterm project\VOLCANO\volcano.csv" type="V_String" />
+            <Field name="population_within_5_km" size="254" source="File: C:\UIUC\GRAD\CS 416 - Data Visualization\data dashboard midterm project\VOLCANO\volcano.csv" type="V_String" />
+            <Field name="population_within_10_km" size="254" source="File: C:\UIUC\GRAD\CS 416 - Data Visualization\data dashboard midterm project\VOLCANO\volcano.csv" type="V_String" />
+            <Field name="population_within_30_km" size="254" source="File: C:\UIUC\GRAD\CS 416 - Data Visualization\data dashboard midterm project\VOLCANO\volcano.csv" type="V_String" />
+            <Field name="population_within_100_km" size="254" source="File: C:\UIUC\GRAD\CS 416 - Data Visualization\data dashboard midterm project\VOLCANO\volcano.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="162" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="latitude" selected="True" type="Float" size="4" />
+            <SelectField field="longitude" selected="True" type="Float" size="4" />
+            <SelectField field="elevation" selected="True" type="Float" size="4" />
+            <SelectField field="major_rock_1" selected="True" rename="major_rock_type" />
+            <SelectField field="major_rock_2" selected="False" />
+            <SelectField field="major_rock_3" selected="False" />
+            <SelectField field="major_rock_4" selected="False" />
+            <SelectField field="major_rock_5" selected="False" />
+            <SelectField field="minor_rock_1" selected="False" />
+            <SelectField field="minor_rock_2" selected="False" />
+            <SelectField field="minor_rock_3" selected="False" />
+            <SelectField field="minor_rock_4" selected="False" />
+            <SelectField field="minor_rock_5" selected="False" />
+            <SelectField field="population_within_5_km" selected="True" type="Float" size="4" />
+            <SelectField field="population_within_10_km" selected="True" type="Float" size="4" />
+            <SelectField field="population_within_30_km" selected="True" type="Float" size="4" />
+            <SelectField field="population_within_100_km" selected="True" type="Float" size="4" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="306" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\MEERA_~1\AppData\Local\Temp\Alteryx\Engine_27592_d938356ff612704a80096cd8e5672fe6_\Engine_27592_cd07511490c93e4c946e7b159e864c4e~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="294" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\UIUC\GRAD\CS 416 - Data Visualization\data dashboard midterm project\VOLCANO\volcano_fixed_types.xlsx|||Sheet1</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <UNCLocal>False</UNCLocal>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>volcano_fixed_types.xlsx
+Query=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>cleaningvolcanodata</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="8f834afe-6a20-4cbd-836f-b91a4a8d49aa" />
+      <Telemetry>
+        <PreviousWorkflowId value="2099e695-f5aa-40d1-a206-67988741e758" />
+        <OriginWorkflowId value="2099e695-f5aa-40d1-a206-67988741e758" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
