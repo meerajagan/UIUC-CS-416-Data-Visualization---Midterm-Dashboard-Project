@@ -27,3 +27,11 @@ The data was cleaned once over using Alteryx and the flows can be found in the "
 **Extra Images**
 
 Some extra images used for dashboarding. Images from Google Images.
+
+
+**How Files were joined in Tableau**
+
+Eruption and Volcano were left joined.
+
+<img width="667" alt="joins" src="https://github.com/meerajagan/cs416_midtermDashboardproject/assets/79546477/4af4fc18-90bb-49b8-9cd6-60f7db287e33">
+
