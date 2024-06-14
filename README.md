@@ -6,7 +6,7 @@ Volcano Data Pulled from: https://www.kaggle.com/datasets/jessemostipak/volcano-
 
 According to the provenence, the Volcano Data is originally pulled from this [Github link](https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-05-12/readme.md) and originates from [The Smithsonian Institution]( https://volcano.si.edu/). The only files used for this dashboard were the files "volcanoes" and "eruptions"
 
-Tectonic plate information came from this [website]([url](https://nordpil.com/resources/tectonic-plates-gis-data/index.html)) with a [Github link]([url](https://github.com/fraxen/tectonicplates)) attached at the bottom.
+Tectonic plate information came from this [website](https://nordpil.com/resources/tectonic-plates-gis-data/index.html) with a [Github link](https://github.com/fraxen/tectonicplates) attached at the bottom.
 
 **Data Cleaning and Preprocessing**
 
